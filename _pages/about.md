@@ -17,14 +17,16 @@ selected_papers: false
 social: true
 ---
 
-
+<br />
+<br />
 ### Postdoctoral Researcher in machine learning
 
 **MIND team, Inria Saclay, University Paris-Saclay**  
 Mail: antoine.collas@inria.fr  
 You can reach me on [Github](https://github.com/antoinecollas), [LinkedIn](https://fr.linkedin.com/in/antoinecollas), and [X](https://x.com/AntoineCollas).
 
-
+<br />
+<br />
 ### Short Bio
 
 Since November 2022, I am a postdoctoral researcher at [Inria Saclay](https://www.inria.fr/en/inria-saclay-centre) in the [Mind team](https://team.inria.fr/mind/), supervised by [Bertrand Thirion](https://pages.saclay.inria.fr/bertrand.thirion/), [Alexandre Gramfort](http://alexandre.gramfort.net) and [Rémi Flamary](https://remi.flamary.com).
