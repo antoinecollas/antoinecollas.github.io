@@ -18,12 +18,13 @@ social: true
 ---
 
 ### Postdoctoral Researcher
+
 **MIND team, Inria Saclay, University Paris-Saclay**  
 Mail: antoine.collas@inria.fr  
 You can reach me on [Github](https://github.com/antoinecollas), [LinkedIn](https://fr.linkedin.com/in/antoinecollas), and [X](https://x.com/AntoineCollas).
 
-
 ### Short Bio
+
 Since November 2022, I am a postdoctoral researcher at [Inria Saclay](https://www.inria.fr/en/inria-saclay-centre) in the [Mind team](https://team.inria.fr/mind/), supervised by [Bertrand Thirion](https://pages.saclay.inria.fr/bertrand.thirion/), [Alexandre Gramfort](http://alexandre.gramfort.net) and [Rémi Flamary](https://remi.flamary.com).
 
 Previously, I did my PhD in the [SONDRA](https://sondra.fr/) laboratory at [CentraleSupélec](https://www.centralesupelec.fr/en), [University of Paris-Saclay](https://www.universite-paris-saclay.fr/en). My supervisors were [Jean-Philippe Ovarlez](http://www.jeanphilippeovarlez.com), [Guillaume Ginolhac](https://www.univ-smb.fr/listic/presentation/membres/enseignants-chercheurs/guillaume-ginolhac/), [Chengfang Ren](https://sites.google.com/view/chengfangren/), and [Arnaud Breloy](https://abreloy.github.io).
