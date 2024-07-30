@@ -17,11 +17,13 @@ selected_papers: false
 social: true
 ---
 
-### Postdoctoral Researcher
+
+### Postdoctoral Researcher in machine learning
 
 **MIND team, Inria Saclay, University Paris-Saclay**  
 Mail: antoine.collas@inria.fr  
 You can reach me on [Github](https://github.com/antoinecollas), [LinkedIn](https://fr.linkedin.com/in/antoinecollas), and [X](https://x.com/AntoineCollas).
+
 
 ### Short Bio
 
