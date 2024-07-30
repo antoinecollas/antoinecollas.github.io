@@ -22,7 +22,7 @@ See also [Google Scholar](https://scholar.google.com/citations?user=jxTnfogAAAAJ
 
 <div class="publications">
 
-{% bibliography -q @preprint %}
+{% bibliography -q @Preprints %}
 {% bibliography -q @software %}
 {% bibliography -q @phdthesis %}
 {% bibliography -q @incollection %}
