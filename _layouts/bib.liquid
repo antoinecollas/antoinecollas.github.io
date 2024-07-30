@@ -195,6 +195,21 @@
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
+      {% if entry.biorxiv %}
+        <a href="http://www.biorxiv.org/content/10.1101/{{ entry.biorxiv }}" class="btn btn-sm z-depth-0" role="button">bioRxiv</a>
+      {% endif %}
+      {% if entry.hal %}
+        <a href="https://hal.science/{{ entry.hal }}" class="btn btn-sm z-depth-0" role="button">HAL</a>
+      {% endif %}
+      {% if entry.doi %}
+        <a href="http://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+      {% endif %}
+      {% if entry.github %}
+        <a href="https://www.github.com/{{ entry.github }}" class="btn btn-sm z-depth-0" role="button">GitHub</a>
+      {% endif %}
+      {% if entry.doc %}
+        <a href="{{ entry.doc }}" class="btn btn-sm z-depth-0" role="button">doc</a>
+      {% endif %}
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       {% endif %}
@@ -274,6 +289,10 @@
                 data-altmetric-id="{{ entry.altmetric }}"
               {% elsif entry.arxiv %}
                 data-arxiv-id="{{ entry.arxiv }}"
+              {% elsif entry.biorxiv %}
+                data-arxiv-id="{{ entry.biorxiv }}"
+              {% elsif entry.hal %}
+                data-arxiv-id="{{ entry.hal }}"
               {% elsif entry.eprint %}
                 data-arxiv-id="{{ entry.eprint }}"
               {% elsif entry.doi %}
