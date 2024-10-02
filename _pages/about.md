@@ -38,8 +38,6 @@ I previously graduated from the [University of Technology of Compiègne](https:/
 My research focuses on statistics lying on Riemannian manifolds and their applications to machine learning and signal processing problems.
 I mainly work on remote sensing images (e.g., SAR and hyperspectral) and neuroimaging data (e.g., MEG, EEG and fMRI).
 
-In 2022, I received the **"Best student paper award"** from the EUSIPCO conference for the paper "Robust Geometric Metric Learning".
-
-In parallel, I am a part-time lecturer at CentraleSupélec and University Paris-Saclay since 2020, teaching graduate-level applied mathematics, including optimization (convexity, duality, linear programming, ...) and digital signal processing (Fourier analysis, linear regression, stochastic processes, statistical estimation, ...).
+In parallel, I am a part-time lecturer at École Polytechnique, CentraleSupélec and University Paris-Saclay since 2020, teaching graduate-level applied mathematics, including optimization, digital signal processing and machine learning.
 
 My curriculum vitae - résumé - is available here: [short version](assets/pdf/antoine_collas_short.pdf), [long version](assets/pdf/antoine_collas_long.pdf) (updated in August 2024).
