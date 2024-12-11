@@ -40,4 +40,4 @@ I mainly work on remote sensing images (e.g., SAR and hyperspectral) and neuroim
 
 In parallel, I am a part-time lecturer at École Polytechnique, CentraleSupélec and University Paris-Saclay since 2020, teaching graduate-level applied mathematics, including optimization, digital signal processing and machine learning.
 
-My curriculum vitae - résumé - is available here: [short version](assets/pdf/antoine_collas_short.pdf), [long version](assets/pdf/antoine_collas_long.pdf) (updated in August 2024).
+My curriculum vitae - résumé - is available here: [short version](assets/pdf/antoine_collas_short.pdf), [long version](assets/pdf/antoine_collas_long.pdf) (updated in December 2024).
