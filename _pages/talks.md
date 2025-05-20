@@ -17,6 +17,14 @@ Talks in reversed chronological order.
 
 <div class="publications">
 
-{% bibliography -q @talk --group_by year %}
-
+<div class="publications">
+<div class="publications">
+{% bibliography
+     --file         talks.bib
+     --replace
+     --group_by     year
+     --group_order  descending
+     --sort_by      year
+     --order        descending
+%}
 </div>

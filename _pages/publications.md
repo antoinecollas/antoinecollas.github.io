@@ -7,26 +7,24 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
 <!-- Bibsearch Feature -->
 
-Publications by categories in reversed chronological order.
+Publications grouped by year (newest first).
 See also [Google Scholar](https://scholar.google.com/citations?user=jxTnfogAAAAJ&hl=en).
 
 \* means equal contribution.
 
-© 2024 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works.
+© 2025 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses.
 
 {% include bib_search.liquid %}
 
 <div class="publications">
-
-{% bibliography -q @preprints %}
-{% bibliography -q @softwares %}
-{% bibliography -q @phdthesis %}
-{% bibliography -q @incollection %}
-{% bibliography -q @article %}
-{% bibliography -q @inproceedings %}
-
+{% bibliography
+     --file         papers.bib
+     --replace
+     --group_by     year
+     --group_order  descending
+     --sort_by      year
+     --order        descending
+%}
 </div>
