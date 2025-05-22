@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-Talks in reversed chronological order.
+Talks grouped by year (newest first).
 
 <!-- _pages/publications.md -->
 

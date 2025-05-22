@@ -24,7 +24,7 @@ See also [Google Scholar](https://scholar.google.com/citations?user=jxTnfogAAAAJ
      --replace
      --group_by     year
      --group_order  descending
-     --sort_by      year
+     --sort_by      none
      --order        descending
 %}
 </div>
