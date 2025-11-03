@@ -22,7 +22,9 @@ social: true
 ### Models team lead
 
 **Karavela.ai**
+<br />
 Mail: acollas@karavela.ai
+<br />
 You can reach me on [Github](https://github.com/antoinecollas), [LinkedIn](https://fr.linkedin.com/in/antoinecollas), and [X](https://x.com/AntoineCollas).
 
 <br />
