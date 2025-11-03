@@ -19,10 +19,10 @@ social: true
 
 <br />
 <br />
-### Postdoctoral Researcher in machine learning
+### Models team lead
 
-**MIND team, Inria Saclay, University Paris-Saclay**  
-Mail: antoine.collas@inria.fr  
+**Karavela.ai**
+Mail: acollas@karavela.ai
 You can reach me on [Github](https://github.com/antoinecollas), [LinkedIn](https://fr.linkedin.com/in/antoinecollas), and [X](https://x.com/AntoineCollas).
 
 <br />
