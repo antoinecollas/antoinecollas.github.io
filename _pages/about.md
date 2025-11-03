@@ -29,15 +29,16 @@ You can reach me on [Github](https://github.com/antoinecollas), [LinkedIn](https
 <br />
 ### Short Bio
 
-Since November 2022, I am a postdoctoral researcher at [Inria Saclay](https://www.inria.fr/en/inria-saclay-centre) in the [Mind team](https://team.inria.fr/mind/), supervised by [Bertrand Thirion](https://pages.saclay.inria.fr/bertrand.thirion/), [Alexandre Gramfort](http://alexandre.gramfort.net) and [Rémi Flamary](https://remi.flamary.com).
+Since August 2025, I am the Models team lead at [Karavela.ai](https://www.karavela.ai/), a startup building a foundation model of the brain. Using next-gen magnetic resonance, Karavela is collecting the largest dataset of the human brain’s dynamics to enhance clinical trials with AI and crack brain decoding.
 
-Previously, I did my PhD in the [SONDRA](https://sondra.fr/) laboratory at [CentraleSupélec](https://www.centralesupelec.fr/en), [University of Paris-Saclay](https://www.universite-paris-saclay.fr/en). My supervisors were [Jean-Philippe Ovarlez](http://www.jeanphilippeovarlez.com), [Guillaume Ginolhac](https://www.univ-smb.fr/listic/presentation/membres/enseignants-chercheurs/guillaume-ginolhac/), [Chengfang Ren](https://sites.google.com/view/chengfangren/), and [Arnaud Breloy](https://abreloy.github.io).
+I work at the intersection of applied mathematics, signal processing and machine learning, with a focus on making scalable methods for neuroscience modalities (MEG, EEG, fMRI).
+
+From November 2022 until July 2025, I was a postdoctoral researcher at [Inria Saclay](https://www.inria.fr/en/inria-saclay-centre) in the [Mind team](https://team.inria.fr/mind/), supervised by [Bertrand Thirion](https://pages.saclay.inria.fr/bertrand.thirion/), [Alexandre Gramfort](http://alexandre.gramfort.net) and [Rémi Flamary](https://remi.flamary.com).
+
+From October 2019 until October 2022, I did my PhD at the [SONDRA](https://sondra.fr/) laboratory at [CentraleSupélec](https://www.centralesupelec.fr/en), [University of Paris-Saclay](https://www.universite-paris-saclay.fr/en). My supervisors were [Jean-Philippe Ovarlez](http://www.jeanphilippeovarlez.com), [Guillaume Ginolhac](https://www.univ-smb.fr/listic/presentation/membres/enseignants-chercheurs/guillaume-ginolhac/), [Chengfang Ren](https://sites.google.com/view/chengfangren/), and [Arnaud Breloy](https://abreloy.github.io).
 
 I previously graduated from the [University of Technology of Compiègne](https://www.utc.fr/en/) with a major in Computer Science and a minor in Mathematical modeling.
 
-My research focuses on statistics lying on Riemannian manifolds and their applications to machine learning and signal processing problems.
-I mainly work on remote sensing images (e.g., SAR and hyperspectral) and neuroimaging data (e.g., MEG, EEG and fMRI).
+In parallel, I have been a part-time lecturer at École Polytechnique, CentraleSupélec and University Paris-Saclay, teaching graduate-level applied mathematics, including optimization, digital signal processing and machine learning.
 
-In parallel, I am a part-time lecturer at École Polytechnique, CentraleSupélec and University Paris-Saclay since 2020, teaching graduate-level applied mathematics, including optimization, digital signal processing and machine learning.
-
-My curriculum vitae - résumé - is available here: [short version](assets/pdf/antoine_collas_short.pdf), [long version](assets/pdf/antoine_collas_long.pdf) (updated in June 2025).
+<!-- My curriculum vitae - résumé - is available here: [short version](assets/pdf/antoine_collas_short.pdf), [long version](assets/pdf/antoine_collas_long.pdf) (updated in June 2025). -->
