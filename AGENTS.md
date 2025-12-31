@@ -1,5 +1,7 @@
 # Repository Guidelines
 
+This repository is a fork of https://github.com/alshedivat/al-folio.
+
 ## Project Structure & Module Organization
 This repository is a Jekyll-based academic site/theme. Key locations:
 - `_config.yml` holds site-wide configuration.
