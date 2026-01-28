@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-01-09'
+  last_updated: '2026-01-28'
 papers:
   jxTnfogAAAAJ:0EnyYjriUFMC:
     citations: 7
     title: Physics-informed and Unsupervised Riemannian Domain Adaptation for Machine Learning on Heterogeneous EEG Datasets
     year: '2024'
   jxTnfogAAAAJ:3fE2CSJIrl8C:
-    citations: 6
+    citations: 7
     title: Multi-source and test-time domain adaptation on multivariate signals using spatio-temporal monge alignment
     year: '2024'
   jxTnfogAAAAJ:4DMP91E08xMC:
@@ -45,6 +45,10 @@ papers:
     citations: 10
     title: Riemannian optimization for non-centered mixture of scaled Gaussian distributions
     year: '2023'
+  jxTnfogAAAAJ:Wp0gIr-vW9MC:
+    citations: 6
+    title: Pot python optimal transport (version 0.9. 5), 2024
+    year: Unknown Year
   jxTnfogAAAAJ:Y0pCki6q_DkC:
     citations: 2
     title: "Apprentissage robuste de distance par g\xE9om\xE9trie riemannienne"
@@ -54,7 +58,7 @@ papers:
     title: 'Riemannian geometry for statistical estimation and learning: application to remote sensing'
     year: '2022'
   jxTnfogAAAAJ:_FxGoFyzp5QC:
-    citations: 15
+    citations: 16
     title: Harmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling
     year: '2023'
   jxTnfogAAAAJ:aqlVkmm33-oC:
