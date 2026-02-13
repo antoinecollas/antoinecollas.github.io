@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-09'
+  last_updated: '2026-02-13'
 papers:
   jxTnfogAAAAJ:0EnyYjriUFMC:
     citations: 7
@@ -26,7 +26,7 @@ papers:
     title: 'Probabilistic PCA from Heteroscedastic Signals: Geometric Framework and Application to Clustering'
     year: '2021'
   jxTnfogAAAAJ:M3ejUd6NZC8C:
-    citations: 3
+    citations: 4
     title: Riemannian Flow Matching for Brain Connectivity Matrices via Pullback Geometry
     year: '2025'
   jxTnfogAAAAJ:MXK_kJrjxJIC:
@@ -46,7 +46,7 @@ papers:
     title: Riemannian optimization for non-centered mixture of scaled Gaussian distributions
     year: '2023'
   jxTnfogAAAAJ:Wp0gIr-vW9MC:
-    citations: 7
+    citations: 8
     title: Pot python optimal transport (version 0.9. 5), 2024
     year: Unknown Year
   jxTnfogAAAAJ:Y0pCki6q_DkC:
