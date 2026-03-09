@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-27'
+  last_updated: '2026-03-09'
 papers:
   jxTnfogAAAAJ:0EnyYjriUFMC:
     citations: 9
@@ -13,16 +13,16 @@ papers:
     citations: 1
     title: 'SKADA: Scikit Adaptation'
     year: '2024'
-  jxTnfogAAAAJ:4TOpqqG69KYC:
-    citations: 3
-    title: 'SPD Learning for Covariance-Based Neuroimaging Analysis: Perspectives, Methods, and Challenges'
-    year: '2025'
+  jxTnfogAAAAJ:7PzlFSSx8tAC:
+    citations: 4
+    title: POT Python Optimal Transport (version 0.9. 5)
+    year: '2024'
   jxTnfogAAAAJ:8k81kl-MbHgC:
     citations: 0
     title: scikit-adaptation/skada
     year: '2024'
   jxTnfogAAAAJ:9ZlFYXVOiuMC:
-    citations: 0
+    citations: 3
     title: 'SPD Matrix Learning for Neuroimaging Analysis: Perspectives, Methods, and Challenges'
     year: '2025'
   jxTnfogAAAAJ:IjCSPb-OGe4C:
@@ -38,15 +38,15 @@ papers:
     title: 'SKADA-Bench: Benchmarking Unsupervised Domain Adaptation Methods with Realistic Validation On Diverse Modalities'
     year: '2025'
   jxTnfogAAAAJ:QIV2ME_5wuYC:
-    citations: 0
+    citations: 3
     title: 'PSDNorm: Temporal Normalization for Deep Learning in Sleep Staging'
-    year: Unknown Year
+    year: '2026'
   jxTnfogAAAAJ:Tyk-4Ss8FVUC:
     citations: 6
     title: On the use of geodesic triangles between gaussian distributions for classification problems
     year: '2022'
   jxTnfogAAAAJ:ULOm3_A8WrAC:
-    citations: 14
+    citations: 15
     title: Geodesic optimization for predictive shift adaptation on EEG data
     year: '2024'
   jxTnfogAAAAJ:W7OEmFMy1HYC:
@@ -54,7 +54,7 @@ papers:
     title: Riemannian optimization for non-centered mixture of scaled Gaussian distributions
     year: '2023'
   jxTnfogAAAAJ:Wp0gIr-vW9MC:
-    citations: 11
+    citations: 14
     title: Pot python optimal transport (version 0.9. 5), 2024
     year: Unknown Year
   jxTnfogAAAAJ:Y0pCki6q_DkC:
@@ -73,6 +73,10 @@ papers:
     citations: 0
     title: Hierarchical Variable Importance with Statistical Control for Medical Data-Based Prediction
     year: '2025'
+  jxTnfogAAAAJ:dhFuZR0502QC:
+    citations: 0
+    title: 'SPD Learn: A Geometric Deep Learning Python Library for Neural Decoding Through Trivialization'
+    year: '2026'
   jxTnfogAAAAJ:eQOLeE2rZwMC:
     citations: 7
     title: Parametric information geometry with the package Geomstats
@@ -85,10 +89,6 @@ papers:
     citations: 2
     title: 'SKADA-bench: Benchmarking unsupervised domain adaptation methods with realistic validation'
     year: '2024'
-  jxTnfogAAAAJ:qxL8FJ1GzNcC:
-    citations: 3
-    title: 'Psdnorm: Test-time temporal normalization for deep learning in sleep staging'
-    year: '2025'
   jxTnfogAAAAJ:roLk4NBRz8UC:
     citations: 12
     title: "The Fisher\u2013Rao geometry of CES distributions"
