@@ -12,9 +12,16 @@ profile:
     <!-- <p>University Paris-Saclay</p> -->
     <!-- <p>Mail: antoine.collas@inria.fr</p> -->
 
-news: true
 selected_papers: false
 social: true
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
+latest_posts:
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
 <br />
