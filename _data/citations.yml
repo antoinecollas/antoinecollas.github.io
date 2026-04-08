@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-20'
+  last_updated: '2026-04-08'
 papers:
   jxTnfogAAAAJ:0EnyYjriUFMC:
     citations: 10
@@ -13,10 +13,6 @@ papers:
     citations: 1
     title: 'SKADA: Scikit Adaptation'
     year: '2024'
-  jxTnfogAAAAJ:7PzlFSSx8tAC:
-    citations: 5
-    title: POT Python Optimal Transport (version 0.9. 5)
-    year: '2024'
   jxTnfogAAAAJ:8k81kl-MbHgC:
     citations: 0
     title: scikit-adaptation/skada
@@ -26,7 +22,7 @@ papers:
     title: 'SPD Matrix Learning for Neuroimaging Analysis: Perspectives, Methods, and Challenges'
     year: '2025'
   jxTnfogAAAAJ:IjCSPb-OGe4C:
-    citations: 22
+    citations: 23
     title: 'Probabilistic PCA from Heteroscedastic Signals: Geometric Framework and Application to Clustering'
     year: '2021'
   jxTnfogAAAAJ:M3ejUd6NZC8C:
@@ -42,7 +38,7 @@ papers:
     title: 'PSDNorm: Temporal Normalization for Deep Learning in Sleep Staging'
     year: '2026'
   jxTnfogAAAAJ:Tyk-4Ss8FVUC:
-    citations: 6
+    citations: 7
     title: On the use of geodesic triangles between gaussian distributions for classification problems
     year: '2022'
   jxTnfogAAAAJ:ULOm3_A8WrAC:
@@ -50,11 +46,11 @@ papers:
     title: Geodesic optimization for predictive shift adaptation on EEG data
     year: '2024'
   jxTnfogAAAAJ:W7OEmFMy1HYC:
-    citations: 10
+    citations: 11
     title: Riemannian optimization for non-centered mixture of scaled Gaussian distributions
     year: '2023'
   jxTnfogAAAAJ:Wp0gIr-vW9MC:
-    citations: 14
+    citations: 19
     title: Pot python optimal transport (version 0.9. 5), 2024
     year: Unknown Year
   jxTnfogAAAAJ:Y0pCki6q_DkC:
@@ -106,6 +102,6 @@ papers:
     title: Entropic Wasserstein component analysis
     year: '2023'
   jxTnfogAAAAJ:zYLM7Y9cAGgC:
-    citations: 5
+    citations: 6
     title: Robust geometric metric learning
     year: '2022'
