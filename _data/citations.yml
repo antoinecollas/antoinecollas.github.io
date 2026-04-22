@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-04-08'
+  last_updated: '2026-04-22'
 papers:
   jxTnfogAAAAJ:0EnyYjriUFMC:
-    citations: 10
+    citations: 11
     title: Physics-informed and Unsupervised Riemannian Domain Adaptation for Machine Learning on Heterogeneous EEG Datasets
     year: '2024'
   jxTnfogAAAAJ:3fE2CSJIrl8C:
@@ -18,7 +18,7 @@ papers:
     title: scikit-adaptation/skada
     year: '2024'
   jxTnfogAAAAJ:9ZlFYXVOiuMC:
-    citations: 3
+    citations: 4
     title: 'SPD Matrix Learning for Neuroimaging Analysis: Perspectives, Methods, and Challenges'
     year: '2025'
   jxTnfogAAAAJ:IjCSPb-OGe4C:
@@ -50,7 +50,7 @@ papers:
     title: Riemannian optimization for non-centered mixture of scaled Gaussian distributions
     year: '2023'
   jxTnfogAAAAJ:Wp0gIr-vW9MC:
-    citations: 19
+    citations: 18
     title: Pot python optimal transport (version 0.9. 5), 2024
     year: Unknown Year
   jxTnfogAAAAJ:Y0pCki6q_DkC:
@@ -70,7 +70,7 @@ papers:
     title: Hierarchical Variable Importance with Statistical Control for Medical Data-Based Prediction
     year: '2025'
   jxTnfogAAAAJ:dhFuZR0502QC:
-    citations: 0
+    citations: 1
     title: 'SPD Learn: A Geometric Deep Learning Python Library for Neural Decoding Through Trivialization'
     year: '2026'
   jxTnfogAAAAJ:eQOLeE2rZwMC:
@@ -90,7 +90,7 @@ papers:
     title: "The Fisher\u2013Rao geometry of CES distributions"
     year: '2024'
   jxTnfogAAAAJ:u-x6o8ySG0sC:
-    citations: 13
+    citations: 14
     title: Robust Low-Rank Change Detection for Multivariate SAR Image Time Series
     year: '2020'
   jxTnfogAAAAJ:u5HHmVD_uO8C:
