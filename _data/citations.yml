@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-04-22'
+  last_updated: '2026-05-04'
 papers:
   jxTnfogAAAAJ:0EnyYjriUFMC:
-    citations: 11
+    citations: 12
     title: Physics-informed and Unsupervised Riemannian Domain Adaptation for Machine Learning on Heterogeneous EEG Datasets
     year: '2024'
   jxTnfogAAAAJ:3fE2CSJIrl8C:
@@ -18,11 +18,11 @@ papers:
     title: scikit-adaptation/skada
     year: '2024'
   jxTnfogAAAAJ:9ZlFYXVOiuMC:
-    citations: 4
+    citations: 3
     title: 'SPD Matrix Learning for Neuroimaging Analysis: Perspectives, Methods, and Challenges'
     year: '2025'
   jxTnfogAAAAJ:IjCSPb-OGe4C:
-    citations: 23
+    citations: 24
     title: 'Probabilistic PCA from Heteroscedastic Signals: Geometric Framework and Application to Clustering'
     year: '2021'
   jxTnfogAAAAJ:M3ejUd6NZC8C:
@@ -62,7 +62,7 @@ papers:
     title: 'Riemannian geometry for statistical estimation and learning: application to remote sensing'
     year: '2022'
   jxTnfogAAAAJ:_FxGoFyzp5QC:
-    citations: 19
+    citations: 20
     title: Harmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling
     year: '2023'
   jxTnfogAAAAJ:aqlVkmm33-oC:
