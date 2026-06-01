@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-29'
+  last_updated: '2026-06-01'
 papers:
   jxTnfogAAAAJ:0EnyYjriUFMC:
     citations: 12
@@ -22,7 +22,7 @@ papers:
     title: 'SPD Matrix Learning for Neuroimaging Analysis: Perspectives, Methods, and Challenges'
     year: '2025'
   jxTnfogAAAAJ:IjCSPb-OGe4C:
-    citations: 25
+    citations: 26
     title: 'Probabilistic PCA from Heteroscedastic Signals: Geometric Framework and Application to Clustering'
     year: '2021'
   jxTnfogAAAAJ:M3ejUd6NZC8C:
@@ -50,7 +50,7 @@ papers:
     title: Riemannian optimization for non-centered mixture of scaled Gaussian distributions
     year: '2023'
   jxTnfogAAAAJ:Wp0gIr-vW9MC:
-    citations: 22
+    citations: 23
     title: Pot python optimal transport (version 0.9. 5), 2024
     year: Unknown Year
   jxTnfogAAAAJ:Y0pCki6q_DkC:
