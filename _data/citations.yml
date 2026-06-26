@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-15'
+  last_updated: '2026-06-26'
 papers:
   jxTnfogAAAAJ:0EnyYjriUFMC:
-    citations: 12
+    citations: 13
     title: Physics-informed and Unsupervised Riemannian Domain Adaptation for Machine Learning on Heterogeneous EEG Datasets
     year: '2024'
   jxTnfogAAAAJ:3fE2CSJIrl8C:
@@ -18,19 +18,15 @@ papers:
     title: scikit-adaptation/skada
     year: '2024'
   jxTnfogAAAAJ:9ZlFYXVOiuMC:
-    citations: 6
+    citations: 7
     title: 'SPD Matrix Learning for Neuroimaging Analysis: Perspectives, Methods, and Challenges'
     year: '2025'
   jxTnfogAAAAJ:IjCSPb-OGe4C:
-    citations: 25
+    citations: 26
     title: 'Probabilistic PCA from Heteroscedastic Signals: Geometric Framework and Application to Clustering'
     year: '2021'
-  jxTnfogAAAAJ:L8Ckcad2t8MC:
-    citations: 0
-    title: "Classification Robuste Non-Supervis\xE9e pour les S\xE9ries Temporelles d'Images SAR"
-    year: Unknown Year
   jxTnfogAAAAJ:M3ejUd6NZC8C:
-    citations: 8
+    citations: 9
     title: Riemannian flow matching for brain connectivity matrices via pullback geometry
     year: '2025'
   jxTnfogAAAAJ:MXK_kJrjxJIC:
@@ -66,7 +62,7 @@ papers:
     title: 'Riemannian geometry for statistical estimation and learning: application to remote sensing'
     year: '2022'
   jxTnfogAAAAJ:_FxGoFyzp5QC:
-    citations: 22
+    citations: 23
     title: Harmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling
     year: '2023'
   jxTnfogAAAAJ:aqlVkmm33-oC:
@@ -74,7 +70,7 @@ papers:
     title: Hierarchical Variable Importance with Statistical Control for Medical Data-Based Prediction
     year: '2025'
   jxTnfogAAAAJ:dhFuZR0502QC:
-    citations: 3
+    citations: 4
     title: 'Spd learn: A geometric deep learning python library for neural decoding through trivialization'
     year: '2026'
   jxTnfogAAAAJ:eQOLeE2rZwMC:
