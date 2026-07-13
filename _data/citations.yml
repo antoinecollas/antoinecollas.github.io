@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-10'
+  last_updated: '2026-07-13'
 papers:
   jxTnfogAAAAJ:0EnyYjriUFMC:
     citations: 13
@@ -94,7 +94,7 @@ papers:
     title: A Tyler-type estimator of location and scatter leveraging Riemannian optimization
     year: '2021'
   jxTnfogAAAAJ:ufrVoPGSRksC:
-    citations: 10
+    citations: 11
     title: Entropic Wasserstein component analysis
     year: '2023'
   jxTnfogAAAAJ:zYLM7Y9cAGgC:
