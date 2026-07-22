@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-13'
+  last_updated: '2026-07-22'
 papers:
   jxTnfogAAAAJ:0EnyYjriUFMC:
     citations: 13
@@ -10,7 +10,7 @@ papers:
     title: Multi-source and test-time domain adaptation on multivariate signals using spatio-temporal monge alignment
     year: '2024'
   jxTnfogAAAAJ:4DMP91E08xMC:
-    citations: 1
+    citations: 2
     title: 'SKADA: Scikit Adaptation'
     year: '2024'
   jxTnfogAAAAJ:8k81kl-MbHgC:
@@ -42,7 +42,7 @@ papers:
     title: On the use of geodesic triangles between gaussian distributions for classification problems
     year: '2022'
   jxTnfogAAAAJ:ULOm3_A8WrAC:
-    citations: 17
+    citations: 18
     title: Geodesic optimization for predictive shift adaptation on EEG data
     year: '2024'
   jxTnfogAAAAJ:W7OEmFMy1HYC:
@@ -62,7 +62,7 @@ papers:
     title: 'Riemannian geometry for statistical estimation and learning: application to remote sensing'
     year: '2022'
   jxTnfogAAAAJ:_FxGoFyzp5QC:
-    citations: 24
+    citations: 25
     title: Harmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling
     year: '2023'
   jxTnfogAAAAJ:aqlVkmm33-oC:
@@ -94,7 +94,7 @@ papers:
     title: A Tyler-type estimator of location and scatter leveraging Riemannian optimization
     year: '2021'
   jxTnfogAAAAJ:ufrVoPGSRksC:
-    citations: 11
+    citations: 10
     title: Entropic Wasserstein component analysis
     year: '2023'
   jxTnfogAAAAJ:zYLM7Y9cAGgC:
