@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-28'
+  last_updated: '2026-09-02'
 papers:
   jxTnfogAAAAJ:0EnyYjriUFMC:
     citations: 14
@@ -18,7 +18,7 @@ papers:
     title: scikit-adaptation/skada
     year: '2024'
   jxTnfogAAAAJ:9ZlFYXVOiuMC:
-    citations: 7
+    citations: 8
     title: 'Spd matrix learning for neuroimaging analysis: Perspectives, methods, and challenges'
     year: '2026'
   jxTnfogAAAAJ:IjCSPb-OGe4C:
