@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-09-02'
+  last_updated: '2026-09-07'
 papers:
   jxTnfogAAAAJ:0EnyYjriUFMC:
     citations: 14
@@ -21,6 +21,10 @@ papers:
     citations: 8
     title: 'Spd matrix learning for neuroimaging analysis: Perspectives, methods, and challenges'
     year: '2026'
+  jxTnfogAAAAJ:IWHjjKOFINEC:
+    citations: 0
+    title: Benchmarking External Generalization of SPD Matrix Learning for Resting-State fMRI Connectome Prediction
+    year: '2026'
   jxTnfogAAAAJ:IjCSPb-OGe4C:
     citations: 28
     title: 'Probabilistic PCA from Heteroscedastic Signals: Geometric Framework and Application to Clustering'
@@ -30,7 +34,7 @@ papers:
     title: Riemannian flow matching for brain connectivity matrices via pullback geometry
     year: '2025'
   jxTnfogAAAAJ:MXK_kJrjxJIC:
-    citations: 5
+    citations: 6
     title: 'SKADA-Bench: Benchmarking Unsupervised Domain Adaptation Methods with Realistic Validation On Diverse Modalities'
     year: '2025'
   jxTnfogAAAAJ:QIV2ME_5wuYC:
@@ -70,7 +74,7 @@ papers:
     title: Hierarchical Variable Importance with Statistical Control for Medical Data-Based Prediction
     year: '2025'
   jxTnfogAAAAJ:dhFuZR0502QC:
-    citations: 5
+    citations: 6
     title: 'Spd learn: A geometric deep learning python library for neural decoding through trivialization'
     year: '2026'
   jxTnfogAAAAJ:eQOLeE2rZwMC:
@@ -82,7 +86,7 @@ papers:
     title: Weakly supervised covariance matrices alignment through Stiefel matrices estimation for MEG applications
     year: '2024'
   jxTnfogAAAAJ:roLk4NBRz8UC:
-    citations: 13
+    citations: 14
     title: "The Fisher\u2013Rao geometry of CES distributions"
     year: '2024'
   jxTnfogAAAAJ:u-x6o8ySG0sC:
