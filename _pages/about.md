@@ -24,7 +24,7 @@ latest_posts:
 <br />
 ### Tech lead and Models team lead
 
-**Karavela.ai**
+**Karavela**
 <br />
 Mail: acollas@karavela.ai
 <br />
@@ -34,7 +34,7 @@ You can reach me on [Github](https://github.com/antoinecollas), [LinkedIn](https
 <br />
 ### Short Bio
 
-I am the Tech lead and Models team lead at [Karavela.ai](https://www.karavela.ai/), a startup building a foundation model of the brain, which I joined in August 2025. Using next-gen magnetic resonance, Karavela is collecting the largest dataset of the human brain’s dynamics to enhance clinical trials with AI and crack brain decoding.
+I am the Tech lead and Models team lead at [Karavela](https://www.karavela.ai/), a startup building a foundation model of the brain, which I joined in July 2025. Using next-gen magnetic resonance, Karavela is collecting the largest dataset of the human brain’s dynamics to enhance clinical trials with AI and crack brain decoding.
 
 I work at the intersection of applied mathematics, signal processing and machine learning, with a focus on making scalable methods for neuroscience modalities (MEG, EEG, fMRI).
 

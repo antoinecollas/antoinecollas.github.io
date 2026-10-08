@@ -14,7 +14,7 @@ See also [Google Scholar](https://scholar.google.com/citations?user=jxTnfogAAAAJ
 
 \* means equal contribution.
 
-© 2025 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses.
+© 2026 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses.
 
 {% include bib_search.liquid %}
 
