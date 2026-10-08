@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-03-09'
+  last_updated: '2026-09-07'
 papers:
   jxTnfogAAAAJ:0EnyYjriUFMC:
-    citations: 9
+    citations: 14
     title: Physics-informed and Unsupervised Riemannian Domain Adaptation for Machine Learning on Heterogeneous EEG Datasets
     year: '2024'
   jxTnfogAAAAJ:3fE2CSJIrl8C:
@@ -10,53 +10,53 @@ papers:
     title: Multi-source and test-time domain adaptation on multivariate signals using spatio-temporal monge alignment
     year: '2024'
   jxTnfogAAAAJ:4DMP91E08xMC:
-    citations: 1
+    citations: 3
     title: 'SKADA: Scikit Adaptation'
-    year: '2024'
-  jxTnfogAAAAJ:7PzlFSSx8tAC:
-    citations: 4
-    title: POT Python Optimal Transport (version 0.9. 5)
     year: '2024'
   jxTnfogAAAAJ:8k81kl-MbHgC:
     citations: 0
     title: scikit-adaptation/skada
     year: '2024'
   jxTnfogAAAAJ:9ZlFYXVOiuMC:
-    citations: 3
-    title: 'SPD Matrix Learning for Neuroimaging Analysis: Perspectives, Methods, and Challenges'
-    year: '2025'
+    citations: 8
+    title: 'Spd matrix learning for neuroimaging analysis: Perspectives, methods, and challenges'
+    year: '2026'
+  jxTnfogAAAAJ:IWHjjKOFINEC:
+    citations: 0
+    title: Benchmarking External Generalization of SPD Matrix Learning for Resting-State fMRI Connectome Prediction
+    year: '2026'
   jxTnfogAAAAJ:IjCSPb-OGe4C:
-    citations: 22
+    citations: 28
     title: 'Probabilistic PCA from Heteroscedastic Signals: Geometric Framework and Application to Clustering'
     year: '2021'
   jxTnfogAAAAJ:M3ejUd6NZC8C:
-    citations: 6
+    citations: 11
     title: Riemannian flow matching for brain connectivity matrices via pullback geometry
     year: '2025'
   jxTnfogAAAAJ:MXK_kJrjxJIC:
-    citations: 2
+    citations: 6
     title: 'SKADA-Bench: Benchmarking Unsupervised Domain Adaptation Methods with Realistic Validation On Diverse Modalities'
     year: '2025'
   jxTnfogAAAAJ:QIV2ME_5wuYC:
-    citations: 3
+    citations: 5
     title: 'PSDNorm: Temporal Normalization for Deep Learning in Sleep Staging'
     year: '2026'
   jxTnfogAAAAJ:Tyk-4Ss8FVUC:
-    citations: 6
+    citations: 7
     title: On the use of geodesic triangles between gaussian distributions for classification problems
     year: '2022'
   jxTnfogAAAAJ:ULOm3_A8WrAC:
-    citations: 15
+    citations: 20
     title: Geodesic optimization for predictive shift adaptation on EEG data
     year: '2024'
   jxTnfogAAAAJ:W7OEmFMy1HYC:
-    citations: 10
+    citations: 12
     title: Riemannian optimization for non-centered mixture of scaled Gaussian distributions
     year: '2023'
   jxTnfogAAAAJ:Wp0gIr-vW9MC:
-    citations: 14
+    citations: 27
     title: Pot python optimal transport (version 0.9. 5), 2024
-    year: Unknown Year
+    year: '2024'
   jxTnfogAAAAJ:Y0pCki6q_DkC:
     citations: 2
     title: "Apprentissage robuste de distance par g\xE9om\xE9trie riemannienne"
@@ -66,7 +66,7 @@ papers:
     title: 'Riemannian geometry for statistical estimation and learning: application to remote sensing'
     year: '2022'
   jxTnfogAAAAJ:_FxGoFyzp5QC:
-    citations: 18
+    citations: 25
     title: Harmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling
     year: '2023'
   jxTnfogAAAAJ:aqlVkmm33-oC:
@@ -74,27 +74,23 @@ papers:
     title: Hierarchical Variable Importance with Statistical Control for Medical Data-Based Prediction
     year: '2025'
   jxTnfogAAAAJ:dhFuZR0502QC:
-    citations: 0
-    title: 'SPD Learn: A Geometric Deep Learning Python Library for Neural Decoding Through Trivialization'
+    citations: 6
+    title: 'Spd learn: A geometric deep learning python library for neural decoding through trivialization'
     year: '2026'
   jxTnfogAAAAJ:eQOLeE2rZwMC:
-    citations: 7
+    citations: 9
     title: Parametric information geometry with the package Geomstats
     year: '2023'
   jxTnfogAAAAJ:hqOjcs7Dif8C:
     citations: 2
     title: Weakly supervised covariance matrices alignment through Stiefel matrices estimation for MEG applications
     year: '2024'
-  jxTnfogAAAAJ:mVmsd5A6BfQC:
-    citations: 2
-    title: 'SKADA-bench: Benchmarking unsupervised domain adaptation methods with realistic validation'
-    year: '2024'
   jxTnfogAAAAJ:roLk4NBRz8UC:
-    citations: 12
+    citations: 14
     title: "The Fisher\u2013Rao geometry of CES distributions"
     year: '2024'
   jxTnfogAAAAJ:u-x6o8ySG0sC:
-    citations: 13
+    citations: 14
     title: Robust Low-Rank Change Detection for Multivariate SAR Image Time Series
     year: '2020'
   jxTnfogAAAAJ:u5HHmVD_uO8C:
@@ -102,10 +98,10 @@ papers:
     title: A Tyler-type estimator of location and scatter leveraging Riemannian optimization
     year: '2021'
   jxTnfogAAAAJ:ufrVoPGSRksC:
-    citations: 9
+    citations: 8
     title: Entropic Wasserstein component analysis
     year: '2023'
   jxTnfogAAAAJ:zYLM7Y9cAGgC:
-    citations: 5
+    citations: 6
     title: Robust geometric metric learning
     year: '2022'
