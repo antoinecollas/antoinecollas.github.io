@@ -228,6 +228,12 @@
       {% if entry.github %}
         <a href="https://www.github.com/{{ entry.github }}" class="btn btn-sm z-depth-0" role="button">GitHub</a>
       {% endif %}
+      {% if entry.demo %}
+        <a href="{{ entry.demo }}" class="btn btn-sm z-depth-0" role="button">Demo</a>
+      {% endif %}
+      {% if entry.huggingface %}
+        <a href="{{ entry.huggingface }}" class="btn btn-sm z-depth-0" role="button">Hugging Face</a>
+      {% endif %}
       {% if entry.doc %}
         <a href="{{ entry.doc }}" class="btn btn-sm z-depth-0" role="button">doc</a>
       {% endif %}
