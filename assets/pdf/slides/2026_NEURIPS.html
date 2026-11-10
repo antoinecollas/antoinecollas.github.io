@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cephalonauts One — NeurIPS 2026 talk</title>
+<title>Cephalonauts One, NeurIPS 2026 talk</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%22-12%20-20%20384%20384%22%3E%3Cg%20transform%3D%22matrix%281.3333333%2C0%2C0%2C-1.3333333%2C0%2C344%29%22%3E%3Cg%20transform%3D%22scale%280.1%29%22%3E%3Cg%20transform%3D%22scale%280.990294%2C-1.00971%29%22%3E%3Cpath%20d%3D%22m%202313.43%2C-2098.58%20c%20-454.73%2C168.02%20-1395.02%2C631.14%20-1804.979%2C1686.211%20-53.642%2C138.001%2035.264%2C254.294%20183.338%2C254.294%20h%20964.521%20c%20148.12%2C0%20268.15%2C-120.046%20268.15%2C-268.14%20V%20-2190.69%20c%200%2C-148.09%20-118.06%2C-243.77%20-257.81%2C-195.13%20-392.02%2C136.28%20-1130.312%2C497.63%20-1489.387%2C1355.59%20-64.295%2C153.617%2036.022%2C284.805%20202.675%2C284.805%20H%202300.85%20c%2071.12%2C0%20139.32%2C-28.238%20189.61%2C-78.527%2050.29%2C-50.262%2078.54%2C-118.46%2078.54%2C-189.568%20v%20-897.62%20c%200%2C-148.09%20-116.72%2C-238.73%20-255.57%2C-187.44%20z%22%20fill%3D%22none%22%20stroke%3D%22%236366f1%22%20stroke-width%3D%22297.451%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E">
 <style>
   :root {
     --bg: #ffffff;
@@ -14,9 +15,15 @@
     --line: #e2e8f0;
     --soft: #f1f5f9;
     --accent: #4f46e5;
-    --pod: #059669;      /* podcast track: green, as the podcasts on slide 3 */
-    --frame: #d97706;    /* fMRI frame track: amber */
-    --frame-off: #fde68a;
+    /* Colour roles, Tailwind palette, shared with our other presentations and the demo page:
+       blue = brain data (inputs), emerald = stimulus and outputs (audio, transcripts, embeddings),
+       indigo (--accent) = Karavela, the model, results. */
+    --brain: #2563eb;       /* blue-600 */
+    --brain-soft: #bfdbfe;  /* blue-200 */
+    --brain-ink: #1e3a8a;   /* blue-900 */
+    --out: #059669;         /* emerald-600 */
+    --out-ink: #047857;     /* emerald-700 */
+    --out-soft: #d1fae5;    /* emerald-100 */
     --warn: #dc2626;
     --sans: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
     --mono: "SF Mono", ui-monospace, Menlo, Consolas, monospace;
@@ -57,8 +64,8 @@
   .cap em { font-style: normal; font-weight: 700; color: var(--accent); }
 
   /* ---------- Karavela logo, on every slide ---------- */
-  .brand { position: absolute; top: 58px; right: 110px; }
-  .brand svg { display: block; width: 60px; height: 57px; }
+  .brand { position: absolute; left: 110px; bottom: 26px; }
+  .brand svg { display: block; width: 52px; height: 50px; }
 
   /* ---------- 3D brain ---------- */
   .brain { display: block; width: 100%; height: 100%; filter: drop-shadow(0 26px 34px rgba(15, 23, 42, .16)); }
@@ -69,13 +76,15 @@
   }
 
   /* ---------- 1. title ---------- */
-  .title-slide { padding-bottom: 76px; }
+  .title-slide { padding-bottom: 112px; }
   .title-grid { flex: 1; display: grid; grid-template-columns: 1fr 640px; column-gap: 40px; align-items: center; min-height: 0; }
   .title-slide .name { font-size: 118px; font-weight: 800; letter-spacing: -.035em; line-height: 1.02; color: var(--accent); }
   .title-slide .sub { font-size: 44px; font-weight: 500; line-height: 1.22; color: var(--body); margin-top: 22px; letter-spacing: -.01em; max-width: 900px; }
   .title-slide .authors { font-size: 27px; line-height: 1.5; color: var(--ink); margin-top: 52px; }
   .title-slide .affils { font-size: 22px; line-height: 1.5; color: var(--muted); margin-top: 14px; }
-  .title-slide .affils span { white-space: nowrap; }
+  .title-slide .affils span { white-space: nowrap; margin-right: 24px; }
+  .title-slide sup { font-size: .58em; font-weight: 500; color: #94a3b8; line-height: 0; margin-left: 1px; }
+  .title-slide .affils sup { font-size: .72em; margin: 0 4px 0 0; }
   .title-brain { height: 620px; }
   .links { display: flex; gap: 56px; border-top: 2px solid var(--line); padding-top: 26px; }
   .links div { font-size: 25px; font-weight: 600; color: var(--ink); white-space: nowrap; }
@@ -102,18 +111,21 @@
   .label { font-size: 24px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
   .acq .label { font-size: 44px; font-weight: 700; letter-spacing: -.01em; text-transform: none; color: var(--ink); }
   .session { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; margin-top: 22px; }
-  .run { height: 150px; border-radius: 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 27px; color: #064e3b; }
+  .run { height: 150px; border-radius: 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 27px; color: var(--brain-ink); background: var(--brain-soft); }
   .run b { font-size: 36px; }
-  .run.p1 { background: #a7f3d0; } .run.p2 { background: #6ee7b7; } .run.p3 { background: #5eead4; }
   .podcasts { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; margin-top: 14px; }
   .pod { border-top: 6px solid currentColor; padding-top: 10px; font-size: 29px; font-weight: 600; text-align: center; }
-  .pod.p1 { color: #059669; } .pod.p2 { color: #047857; } .pod.p3 { color: #0d9488; }
+  .pod { color: var(--out); }
   .times { margin-top: 60px; font-size: 56px; font-weight: 700; letter-spacing: -.02em; }
   .times small { display: block; font-size: 30px; font-weight: 400; letter-spacing: 0; color: var(--body); margin-top: 10px; }
 
   /* ---------- 5. benchmark ---------- */
   .flow { display: grid; grid-template-columns: 330px 160px 330px 180px 1fr; align-items: start; }
   .flow .label { text-align: center; color: var(--ink); font-size: 23px; letter-spacing: .05em; white-space: nowrap; }
+  .flow .label.in { color: var(--brain); }
+  .flow .label.out { color: var(--out-ink); }
+  .arrow.model { color: var(--accent); font-weight: 700; }
+  .arrow.model::after { color: #a5b4fc; }
   .stage-note { font-size: 24px; line-height: 1.3; color: var(--muted); text-align: center; margin: 6px 0 30px; min-height: 62px; }
   .flow-brain { height: 280px; margin-top: 30px; }
   .embed { display: grid; grid-template-columns: 1fr; gap: 5px; width: 40px; margin: 30px auto 0; }
@@ -121,13 +133,13 @@
   .arrow { align-self: center; padding-top: 60px; text-align: center; font-size: 25px; color: var(--muted); }
   .arrow::after { content: "→"; display: block; font-size: 84px; line-height: .9; color: var(--faint); }
   .cands { display: flex; flex-direction: column; gap: 8px; }
-  .top10 { position: relative; display: flex; flex-direction: column; gap: 8px; padding: 14px; border: 3px solid var(--pod); border-radius: 20px; margin-bottom: 6px; }
-  .top10 .tag { position: absolute; top: -20px; right: 24px; padding: 5px 16px; border-radius: 999px; background: var(--pod); color: #fff; font-size: 22px; font-weight: 700; }
+  .top10 { position: relative; display: flex; flex-direction: column; gap: 8px; padding: 14px; border: 3px solid var(--out); border-radius: 20px; margin-bottom: 6px; }
+  .top10 .tag { position: absolute; top: -20px; right: 24px; padding: 5px 16px; border-radius: 999px; background: var(--out); color: #fff; font-size: 22px; font-weight: 700; }
   .cand { display: grid; grid-template-columns: 70px 1fr 210px; align-items: center; column-gap: 16px; height: 46px; padding: 0 20px;
     border-radius: 12px; background: var(--soft); font-size: 23px; color: var(--muted); }
-  .cand svg { width: 100%; height: 30px; fill: #94a3b8; }
-  .cand.true { background: #d1fae5; color: var(--ink); font-weight: 700; }
-  .cand.true svg { fill: var(--ink); }
+  .cand svg { width: 100%; height: 30px; fill: #34d399; }
+  .cand.true { background: var(--out-soft); color: var(--ink); font-weight: 700; }
+  .cand.true svg { fill: var(--out-ink); }
   .cand.out { opacity: .5; margin: 0 17px; }
   .dots { height: 20px; line-height: 20px; text-align: center; font-size: 22px; color: var(--muted); }
 
@@ -145,12 +157,12 @@
   .sample-grid { display: grid; grid-template-columns: 700px 1fr; column-gap: 70px; align-items: center; }
   .sample-brain { height: 560px; }
   .track-label { font-size: 22px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
-  .bold-text .track-label { color: var(--frame); }
+  .bold-text .track-label { color: var(--brain); }
   .bold-text .big { font-size: 42px; font-weight: 700; margin-top: 10px; letter-spacing: -.01em; }
   .bold-text .small { font-size: 27px; color: var(--muted); margin-top: 8px; }
   .pod-card { margin-top: 44px; border-top: 2px solid var(--line); padding-top: 34px; }
   .pod-head { display: flex; justify-content: space-between; align-items: baseline; }
-  .pod-card .track-label { color: var(--pod); }
+  .pod-card .track-label { color: var(--out); }
   .pod-head .src { font-size: 20px; color: var(--muted); font-family: var(--mono); }
   .words { font-size: 34px; line-height: 1.42; margin-top: 14px; color: var(--ink); font-weight: 500; }
   .words.playing span { color: var(--faint); transition: color .12s linear; }
@@ -159,11 +171,11 @@
   .tl-row { position: absolute; left: 150px; right: 0; height: 26px; }
   .tl-name { position: absolute; left: 0; width: 140px; font-size: 20px; color: var(--muted); line-height: 26px; }
   .tl-words { top: 0; } .tl-frames { top: 38px; } .tl-axis { top: 70px; }
-  .tl-words i { position: absolute; top: 3px; height: 20px; background: var(--pod); border-radius: 4px; }
-  .tl-frames i { position: absolute; top: 3px; height: 20px; background: var(--frame-off); border-radius: 4px; }
-  .tl-frames i.on { background: var(--frame); }
+  .tl-words i { position: absolute; top: 3px; height: 20px; background: var(--out); border-radius: 4px; }
+  .tl-frames i { position: absolute; top: 3px; height: 20px; background: var(--brain); border-radius: 4px; }
   .tl-axis b { position: absolute; transform: translateX(-50%); font: 400 20px var(--mono); color: var(--muted); }
-  .playhead { position: absolute; top: -6px; bottom: 30px; width: 3px; margin-left: -1.5px; background: var(--ink); border-radius: 2px; display: none; }
+  /* progress: one vertical bar crossing the words and the fMRI frames */
+  .playhead { position: absolute; top: -10px; height: 84px; width: 4px; margin-left: -2px; background: var(--ink); border-radius: 2px; z-index: 2; display: none; }
   .timeline.playing .playhead { display: block; }
 
   /* ---------- rehearsal aids (never visible unless toggled) ---------- */
@@ -209,21 +221,22 @@
 
 <main id="deck">
 
-  <!-- 1 · TITLE -->
+  <!-- 1: TITLE -->
   <section class="slide title-slide" data-time="0:25" data-anim="hero">
-    <div class="kicker">NeurIPS 2026 · Evaluations &amp; Datasets Track</div>
+    <div class="kicker">NeurIPS 2026, Evaluations &amp; Datasets Track</div>
     <div class="title-grid">
       <div>
         <div class="name">Cephalonauts One</div>
         <div class="sub">A deep fMRI dataset for decoding naturalistic speech in the human brain</div>
         <div class="authors">
-          Antoine Collas, Louis Jalouzot, Géraud Ilinca, Corentin Caris, Romain Valabrègue, Ahmed Hassayoune,
-          David Goncalves, Madeleine Hueber, Thaddée Delebarre, Julien Savatovsky, Clara Fonteneau,
-          Charles Maussion, Bertrand Thirion, Alexis Thual
+          Antoine Collas<sup>1</sup>, Louis Jalouzot<sup>1,2,3</sup>, Géraud Ilinca<sup>1</sup>, Corentin Caris<sup>1</sup>,
+          Romain Valabrègue<sup>4</sup>, Ahmed Hassayoune<sup>1</sup>, David Goncalves<sup>1</sup>, Madeleine Hueber<sup>1</sup>,
+          Thaddée Delebarre<sup>1</sup>, Julien Savatovsky<sup>5</sup>, Clara Fonteneau<sup>1</sup>, Charles Maussion<sup>1</sup>,
+          Bertrand Thirion<sup>1,6</sup>, Alexis Thual<sup>1</sup>
         </div>
         <div class="affils">
-          <span>Karavela</span> · <span>UNICOG, CEA, Paris-Saclay University</span> · <span>LSCP, ENS, PSL University</span><br>
-          <span>CENIR, Sorbonne Université, ICM</span> · <span>Hôpital Fondation Adolphe de Rothschild</span> · <span>Inria</span>
+          <span><sup>1</sup>Karavela</span> <span><sup>2</sup>UNICOG, CEA, Paris-Saclay University</span> <span><sup>3</sup>LSCP, ENS, PSL University</span><br>
+          <span><sup>4</sup>CENIR, Sorbonne Université, ICM</span> <span><sup>5</sup>Hôpital Fondation Adolphe de Rothschild</span> <span><sup>6</sup>Inria</span>
         </div>
       </div>
       <div class="title-brain"><canvas class="brain" id="brain-hero" width="1280" height="1240"></canvas></div>
@@ -235,7 +248,7 @@
     </div>
   </section>
 
-  <!-- 2 · THE DATASET -->
+  <!-- 2: THE DATASET -->
   <section class="slide" data-time="0:45">
     <div class="kicker">The dataset</div>
     <h1 style="max-width:none; white-space:nowrap">Three subjects listening to podcasts in a 3T MRI scanner</h1>
@@ -243,7 +256,7 @@
       <div class="acq">
         <div class="acq-left">
           <img data-fig="scanner" alt="A subject lying in an MRI scanner">
-          <div class="acq-facts"><b>3 subjects</b> · 3T MRI<br>whole brain every 0.52&nbsp;s</div>
+          <div class="acq-facts"><b>3 subjects</b>, 3T MRI<br>whole brain every 0.52&nbsp;s</div>
         </div>
         <div>
           <div class="label">One session</div>
@@ -264,10 +277,10 @@
         </div>
       </div>
     </div>
-    <div class="foot"><span>Cephalonauts One · NeurIPS 2026</span><span class="pg"></span></div>
+    <div class="foot"><span></span><span class="pg"></span></div>
   </section>
 
-  <!-- 3 · A SAMPLE OF THE DATA -->
+  <!-- 3: A SAMPLE OF THE DATA -->
   <section class="slide" data-time="0:50" data-anim="sample">
     <div class="kicker">A sample of the data</div>
     <h1>Brain activity aligned with the podcast</h1>
@@ -279,13 +292,13 @@
         </div>
         <div>
           <div class="bold-text">
-            <div class="track-label">BOLD · fMRI</div>
+            <div class="track-label">BOLD fMRI</div>
             <div class="big">One whole-brain volume every 0.52&nbsp;s</div>
             <div class="small">~1,700 volumes per run</div>
           </div>
           <div class="pod-card">
             <div class="pod-head">
-              <div class="track-label">Podcast · audio + transcript</div>
+              <div class="track-label">Podcast audio and transcript</div>
               <div class="src" id="sample-src"></div>
             </div>
             <div class="words" id="sample-words"></div>
@@ -300,10 +313,10 @@
         </div>
       </div>
     </div>
-    <div class="foot"><span>Cephalonauts One · NeurIPS 2026</span><span class="pg"></span></div>
+    <div class="foot"><span></span><span class="pg"></span></div>
   </section>
 
-  <!-- 4 · DEPTH COMPARED WITH OTHER DATASETS -->
+  <!-- 4: DEPTH COMPARED WITH OTHER DATASETS -->
   <section class="slide" data-time="0:45">
     <div class="kicker">Depth</div>
     <h1><em>30 hours per subject</em>: the deepest fMRI dataset</h1>
@@ -320,49 +333,49 @@
       </div>
       <div class="axis-note">Maximum hours of fMRI per subject</div>
     </div>
-    <div class="foot"><span>Cephalonauts One · NeurIPS 2026</span><span class="pg"></span></div>
+    <div class="foot"><span></span><span class="pg"></span></div>
   </section>
 
-  <!-- 5 · THE BENCHMARK -->
+  <!-- 5: THE BENCHMARK -->
   <section class="slide" data-time="0:50">
     <div class="kicker">The benchmark</div>
     <h1>Retrieve what the subject was hearing</h1>
     <div class="body">
       <div class="flow">
         <div>
-          <div class="label">Held-out fMRI</div>
+          <div class="label in">Held-out fMRI</div>
           <div class="stage-note">from a session never seen in training</div>
           <div class="flow-brain"><canvas class="brain" id="brain-task" width="660" height="560"></canvas></div>
         </div>
-        <div class="arrow">decoder</div>
+        <div class="arrow model">decoder</div>
         <div>
-          <div class="label">Predicted embedding</div>
+          <div class="label out">Predicted embedding</div>
           <div class="stage-note">in the space of pretrained audio and text models</div>
           <div class="embed" id="task-embed"></div>
         </div>
         <div class="arrow">closest</div>
         <div>
-          <div class="label">~2,000 candidate audio segments</div>
+          <div class="label out">~2,000 candidate audio segments</div>
           <div class="stage-note">all from the same session</div>
           <div class="cands" id="task-cands"></div>
         </div>
       </div>
       <div class="cap"><b>Success:</b> the segment actually heard is among the 10 closest</div>
     </div>
-    <div class="foot"><span>Cephalonauts One · NeurIPS 2026</span><span class="pg"></span></div>
+    <div class="foot"><span></span><span class="pg"></span></div>
   </section>
 
-  <!-- 6 · RESULT -->
+  <!-- 6: RESULT -->
   <section class="slide" data-time="0:50">
     <div class="kicker">Result</div>
     <h1>Decoding keeps improving with more data per subject</h1>
     <div class="body">
       <div class="chart" id="scaling-chart" role="img" aria-label="Top-10 retrieval accuracy against hours of training data, one line per subject; all three rise steadily"></div>
     </div>
-    <div class="foot"><span>Cephalonauts One · NeurIPS 2026</span><span class="pg"></span></div>
+    <div class="foot"><span></span><span class="pg"></span></div>
   </section>
 
-  <!-- 7 · CLOSING (the title slide again) -->
+  <!-- 7: CLOSING (the title slide again) -->
   <section class="slide title-slide" data-time="0:10" data-anim="outro">
     <div class="kicker">Thank you</div>
     <div class="title-grid">
@@ -370,13 +383,14 @@
         <div class="name">Cephalonauts One</div>
         <div class="sub">A deep fMRI dataset for decoding naturalistic speech in the human brain</div>
         <div class="authors">
-          Antoine Collas, Louis Jalouzot, Géraud Ilinca, Corentin Caris, Romain Valabrègue, Ahmed Hassayoune,
-          David Goncalves, Madeleine Hueber, Thaddée Delebarre, Julien Savatovsky, Clara Fonteneau,
-          Charles Maussion, Bertrand Thirion, Alexis Thual
+          Antoine Collas<sup>1</sup>, Louis Jalouzot<sup>1,2,3</sup>, Géraud Ilinca<sup>1</sup>, Corentin Caris<sup>1</sup>,
+          Romain Valabrègue<sup>4</sup>, Ahmed Hassayoune<sup>1</sup>, David Goncalves<sup>1</sup>, Madeleine Hueber<sup>1</sup>,
+          Thaddée Delebarre<sup>1</sup>, Julien Savatovsky<sup>5</sup>, Clara Fonteneau<sup>1</sup>, Charles Maussion<sup>1</sup>,
+          Bertrand Thirion<sup>1,6</sup>, Alexis Thual<sup>1</sup>
         </div>
         <div class="affils">
-          <span>Karavela</span> · <span>UNICOG, CEA, Paris-Saclay University</span> · <span>LSCP, ENS, PSL University</span><br>
-          <span>CENIR, Sorbonne Université, ICM</span> · <span>Hôpital Fondation Adolphe de Rothschild</span> · <span>Inria</span>
+          <span><sup>1</sup>Karavela</span> <span><sup>2</sup>UNICOG, CEA, Paris-Saclay University</span> <span><sup>3</sup>LSCP, ENS, PSL University</span><br>
+          <span><sup>4</sup>CENIR, Sorbonne Université, ICM</span> <span><sup>5</sup>Hôpital Fondation Adolphe de Rothschild</span> <span><sup>6</sup>Inria</span>
         </div>
       </div>
       <div class="title-brain"><canvas class="brain" id="brain-outro" width="1280" height="1240"></canvas></div>
@@ -392,7 +406,7 @@
 
 <div id="timer">5:00</div>
 <div id="notes"><div class="meta"></div><div class="text"></div>
-  <div class="keys">→ / space next · ← previous · F fullscreen · N notes · P podcast sound on/off (slide 3) · T timer · R reset timer · ⌘P / Ctrl+P export PDF</div></div>
+  <div class="keys">Right arrow or space: next. Left arrow: previous. F: fullscreen. N: notes. P: podcast sound on or off (slide 3). T: timer. R: reset timer. Cmd+P or Ctrl+P: export PDF.</div></div>
 
 <script>
 (function () {
@@ -426,7 +440,7 @@
     for (var s = Math.ceil(T0 / 2) * 2; s <= T1; s += 2) {  /* a label every 2 s */
       var b = document.createElement('b'); b.style.left = pct(s); b.textContent = s + ' s'; rowA.appendChild(b);
     }
-    document.getElementById('sample-src').textContent = 'sub-' + M.sub + ' · session ' + M.ses + ' · run ' + M.run;
+    document.getElementById('sample-src').textContent = 'sub-' + M.sub + ', session ' + M.ses + ', run ' + M.run;
   }
   function buildWords(list) {
     WORDS = list || [];
@@ -557,7 +571,7 @@
   (function buildTask() {
     var r = rng(7), embed = document.getElementById('task-embed'), cands = document.getElementById('task-cands'), n, k;
     for (n = 0; n < 8; n++) {                       /* one column: the prediction is a single vector */
-      var cell = document.createElement('i'); cell.style.background = 'hsl(215, 16%, ' + Math.round(38 + r() * 50) + '%)';
+      var cell = document.createElement('i'); cell.style.background = ['#a7f3d0', '#6ee7b7', '#34d399', '#10b981', '#059669', '#047857'][Math.floor(r() * 6)];
       embed.appendChild(cell);
     }
     function row(rank, cls, tag) {
@@ -583,7 +597,7 @@
 
   /* ================= result chart (slide 6) =================
      Top-10 accuracy against training hours, per subject: mean over five folds, band = +/- 1 SD.
-     Log-log axes as in the paper. Subject colours are distinct from the brain's colour scale. */
+     Log-log axes as in the paper. */
   function buildScaling() {
     var D = window.SCALING, host = document.getElementById('scaling-chart');
     if (!D || !host) return;
@@ -591,7 +605,7 @@
     var lx0 = Math.log(1), lx1 = Math.log(30), ly0 = Math.log(2.3), ly1 = Math.log(34);
     function X(h) { return L + (Math.log(h) - lx0) / (lx1 - lx0) * (W - L - R); }
     function Y(v) { return H - B - (Math.log(v) - ly0) / (ly1 - ly0) * (H - T - B); }
-    var COLORS = ['#1baf7a', '#eb6834', '#8a5a00'];
+    var COLORS = ['#2563eb', '#a78bfa', '#db2777'];   /* sub-0, sub-1, sub-2: same as the demo page on karavela.ai */
     function marker(kind, x, y, c, s) {            /* circle, square, triangle: shape repeats the identity */
       var ring = ' fill="' + c + '" stroke="#fff" stroke-width="3"';
       if (kind === 0) return '<circle cx="' + x + '" cy="' + y + '" r="' + s + '"' + ring + '/>';
@@ -680,7 +694,6 @@
       el = Math.min(el, SPAN);
       var t = T0 + el;
       wordSpans.forEach(function (s, n) { s.classList.toggle('said', WORDS[n][1] <= t); });
-      frameTicks.forEach(function (k, n) { k.classList.toggle('on', (FIRST_FRAME + n) * TR <= t); });
       playhead.style.left = pct(t);
       drawBrain(drawSample, el, spin);
     }
@@ -718,7 +731,7 @@
     slides.forEach(function (s, k) { s.classList.toggle('active', k === i); });
     var a = slides[i].querySelector('aside');
     notes.querySelector('.meta').textContent =
-      'Slide ' + (i + 1) + ' of ' + slides.length + ' · target ' + (slides[i].dataset.time || '');
+      'Slide ' + (i + 1) + ' of ' + slides.length + ', target ' + (slides[i].dataset.time || '');
     notes.querySelector('.text').textContent = a ? a.textContent.replace(/\s+/g, ' ').trim() : '';
     setAnim(slides[i].dataset.anim || '');
     try { history.replaceState(null, '', '#' + (i + 1)); } catch (e) {}
